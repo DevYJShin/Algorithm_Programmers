@@ -13,7 +13,7 @@ def dfs(idx, value, numbers, target):
             count += 1
         return
 
-        # 재귀함수 recursive case
+    # 재귀함수 recursive case
     # 재귀적으로 부분 문제를 푸는 경우.
     dfs(idx + 1, value + numbers[idx], numbers, target)
     dfs(idx + 1, value - numbers[idx], numbers, target)
