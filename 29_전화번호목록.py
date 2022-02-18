@@ -1,5 +1,5 @@
 def solution(phone_book):
-    # Hash map을 만든다.
+    # 1. Hash map을 만든다.
     hash_map = {}
     for number in phone_book:
         hash_map[number] = 1
